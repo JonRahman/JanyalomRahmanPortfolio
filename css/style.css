@@ -63,3 +63,43 @@ section a { /* add highlight affect when hovering */
   color: rgb(166, 189, 166);
   text-decoration: underline;
 } 
+
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  header h1 {
+      text-align: center;
+  }
+  
+  nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  nav a {
+      margin: 5px 0;
+  }
+
+  .work .project {
+      width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  header {
+      padding: 10px;
+  }
+
+  header h1 {
+      text-align: center;
+  }
+
+  .about-me, .work {
+      padding: 10px;
+  }
+
+  footer {
+      padding: 10px;
+  }
+}
