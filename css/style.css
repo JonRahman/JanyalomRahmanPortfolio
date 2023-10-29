@@ -33,6 +33,10 @@ nav a { /* add highlight affect when hovering */
   color: rgb(166, 189, 166);
   text-decoration: underline;
 } 
+nav a:hover {
+  color: #e1dcd4; 
+  text-shadow: 0 0 10px #e1dcd4;
+}
 
 .sub {
   padding: 10px;
@@ -118,6 +122,7 @@ article {
   background-image: url("../images/02-portfolio-3.jpg");
   }
 
+
 /*footer*/
 footer h3 {
   text-align: left;
@@ -135,7 +140,12 @@ section a { /* add highlight affect when hovering */
   margin: 0 2%;
   color: rgb(166, 189, 166);
   text-decoration: underline;
-} 
+}
+
+section a:hover {
+  color: #e1dcd4; 
+  text-shadow: 0 0 10px #e1dcd4;
+}
 
 
 /* Media Queries for Responsiveness */
