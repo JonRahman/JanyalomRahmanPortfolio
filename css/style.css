@@ -107,7 +107,7 @@ section a { /* add highlight affect when hovering */
 
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 768px) { /*small size*/
   header h1 {
       text-align: center;
   }
@@ -119,20 +119,15 @@ section a { /* add highlight affect when hovering */
   }
 
   nav a {
-      margin: 5px 0;
+    margin: 5px 0;
   }
 
-  .container {
-      width: 100%;
-      flex-wrap: wrap;
-  }
-  
   .image-content {
-      width: 100%; 
-      height: auto;
-      margin-right: 10px;
+    display: block;
+    margin-right: 10%;
   }
 
+  
   footer h3 {
     text-align: center;
   }
@@ -143,7 +138,7 @@ section a { /* add highlight affect when hovering */
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 480px) { /*medium size*/
   header {
       padding: 10px;
   }
@@ -152,14 +147,16 @@ section a { /* add highlight affect when hovering */
       text-align: center;
   }
 
-  .about-me, .work {
+  #container {
       padding: 10px;
+      width: 100%;
+      flex-wrap: wrap;
+      margin-top: 0;
+      clear:both;
   }
 
   .image-content {
-      width: 100%; 
-      height: auto;
-      margin-right: 10px;
+      align-content: flex-start;
   }
 
   footer {
