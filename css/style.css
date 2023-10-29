@@ -7,6 +7,7 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1;
+  display: block;
 }
 
 /*header*/
@@ -84,7 +85,38 @@ article {
   background-color: #e5e5e5;
 }
 
+/* container*/
+.project-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  width: 80%;
+}
 
+.flex-item{
+  width: 40%;
+  height: 150px;
+  margin: 10px 10px;
+}
+
+.flex-item h3 {
+  background: #2c3e50;
+}
+
+#project1{
+  width: 85%;
+  height: 200px;
+  background-image: url("../images/02-portfolio-1.jpg");
+}
+
+#project2{
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+#project3{
+  background-image: url("../images/02-portfolio-3.jpg");
+  }
 
 /*footer*/
 footer h3 {
@@ -126,7 +158,6 @@ section a { /* add highlight affect when hovering */
     display: block;
     margin-right: 10%;
   }
-
   
   footer h3 {
     text-align: center;
