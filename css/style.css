@@ -80,11 +80,11 @@ article {
 /*content for about me and work section*/
 .page-section {
   padding: 20px;
+  margin: center;
   background-color: #e5e5e5;
-/*width: 75%;
-  display: inline-block;
-  margin-right: 10px;*/
 }
+
+
 
 /*footer*/
 footer h3 {
@@ -122,13 +122,24 @@ section a { /* add highlight affect when hovering */
       margin: 5px 0;
   }
 
-  .work .project {
+  .container {
       width: 100%;
+      flex-wrap: wrap;
   }
   
-  .image-content img {
+  .image-content {
       width: 100%; 
-      height: auto; 
+      height: auto;
+      margin-right: 10px;
+  }
+
+  footer h3 {
+    text-align: center;
+  }
+
+  footer a {
+    line-height: 2;
+    text-align: center;
   }
 }
 
@@ -145,14 +156,13 @@ section a { /* add highlight affect when hovering */
       padding: 10px;
   }
 
-  .image-content img {
+  .image-content {
       width: 100%; 
-      height: auto; 
+      height: auto;
+      margin-right: 10px;
   }
 
   footer {
       padding: 10px;
   }
-
-
 }
