@@ -56,9 +56,8 @@ h2 {
 /*main*/
 .page-wrapper {
   display: flex;
-  width: 80%;
+  width: 75%;
   margin: auto;
-  flex-direction: row;
   justify-content: center;
 }
 
@@ -74,16 +73,13 @@ h2 {
 /*image*/
 article {
   width: 50%;
-  text-align: center;
-  /* margin-right: 20px; */
-  /* padding: 20px; */
   font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
 .image-content img {
-  max-height: 50%; 
-  width: auto;
-  margin-right: 20px;
+  max-height: 75%; 
+  max-width: 75%;
+  margin-top: 50px;
   padding: 20px;
   background: #2c3e50;
 }
@@ -177,10 +173,15 @@ footer a:hover {
   }
 
   .image-content {
-    display: block;
-    margin-right: 10%;
+    display: none;
   }
   
+  .page-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
   footer h3 {
     text-align: center;
   }
