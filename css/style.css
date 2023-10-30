@@ -76,9 +76,10 @@ article {
   gap: 20px;
   margin: 0 auto;
 }
+
 .image-container { /*style the images side by side */
   display: flex; 
-  justify-content: space-between; 
+  justify-content: space-around;
 }
 
 #image-content1 img {
@@ -198,9 +199,14 @@ footer a:hover {
     align-items: center;
     margin-block-end: 10%;
   }
-
- 
   
+  .page-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-block-end: 10%;
+  }
+
   footer h3 {
     text-align: center;
   }
