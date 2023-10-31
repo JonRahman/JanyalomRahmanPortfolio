@@ -85,6 +85,14 @@ h2 {
   justify-content: space-around;
 }
 
+#image-content img {
+  padding: 20px;
+  background: #2c3e50;
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
 #image-content1 img {
   flex-direction: column;
   max-height: 75%; 
