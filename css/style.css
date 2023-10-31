@@ -46,8 +46,13 @@ nav a:hover {
   margin: 10px 10px;
   background-image: url("../images/02-hero-bg.jpg");
   background-size: cover; 
-  color:#2c3e50;
   text-align: right;
+  color: #e5e5e5;
+}
+
+
+#subbox h2 {
+  background: #2c3e50;  
 }
 
 h2 {
@@ -95,7 +100,6 @@ article {
 /*content for about me section*/
 .container {
   padding-inline: 10px;
-  background: #2c3e50;
 }
 
 .page-section {
